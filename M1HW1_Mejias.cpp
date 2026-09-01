@@ -1,3 +1,8 @@
+// CSC 134 
+// M1HW1
+// Andrea Mejias
+// 8/31/2026
+
 // Header comments go here 
 #include <iostream>
 #include <string>
