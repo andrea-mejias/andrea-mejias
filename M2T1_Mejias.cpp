@@ -26,7 +26,7 @@ int main() {
     cout << "What's your last name? ";
     cin >> lastname;
     fullname = firstname + " " + lastname;
-    cout << "Nice to meet you, " << fullname << endl;
+    cout << "Nice to meet you, " << fullname << "." << endl;
 
     // Ask the customer how much they want to purchase
     cout << "How many " << mainproduct << " would you like today? ";
@@ -39,7 +39,7 @@ int main() {
     cout << setprecision(2) << fixed;
     
     // Give the final results
-    cout << "For " << amountpurchased << " " << mainproduct << endl;
+    cout << "For " << amountpurchased << " " << mainproduct << "," endl;
     cout << "That will be: $" << totalprice << endl;
     cout << "Thank you for shopping with us!" << endl;
 
