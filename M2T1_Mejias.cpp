@@ -39,7 +39,7 @@ int main() {
     cout << setprecision(2) << fixed;
     
     // Give the final results
-    cout << "For " << amountpurchased << " " << mainproduct << "," endl;
+    cout << "For " << amountpurchased << " " << mainproduct << "," << endl;
     cout << "That will be: $" << totalprice << endl;
     cout << "Thank you for shopping with us!" << endl;
 

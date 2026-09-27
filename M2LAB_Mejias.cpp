@@ -7,7 +7,7 @@
 #include <iomanip> // Two decimal places
 using namespace std; 
 
-int main() (
+int main() {
     
     // Declare constant variables
     const double cost_per_cubic_foot = 0.23;
@@ -34,11 +34,11 @@ int main() (
     profit = charge - cost;
 
     // Output - Display results
-    cout << "The volume of your crate is $" << volume << endl;
+    cout << "The volume of your crate is " << volume << " cubic feet." << endl;
     cout << "The cost of your crate is $" << cost << endl;
     cout << "Charge for the volume of your crate is $" << charge << endl;
     cout << "The profit from your crate is $" << profit << endl;
     cout << "Thank you for working with Solid Snake Crates Incorporation!" << endl;
 
     return 0; // No errors
-)
+}
