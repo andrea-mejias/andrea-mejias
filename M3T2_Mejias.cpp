@@ -17,7 +17,7 @@ int main() {
     cout << "Your seed is: " << seed << endl;
     cout << "What's your lucky number? " << endl;
     cin >> seed;
-    
+
     // Seed the RNG
     srand(seed);
 
@@ -51,9 +51,26 @@ int main() {
     else if (total == 12) {
         cout << "Boxcars! Sorry, you lost." << endl;
     }
+    else if (total == 4) {
+        cout << "Your point is " << total << " and your odds are 2 out of 1." << endl;
+    }
+    else if (total == 10) {
+        cout << "Your point is " << total << " and your odds are 2 out of 1." << endl;
+    }
+    else if (total == 5) {
+        cout << "Your point is " << total << " and your odds are 3 out of 2." << endl;
+    }
+    else if (total == 9) {
+        cout << "Your point is " << total << " and your odds are 3 out of 2." << endl;
+    }
+    else if (total == 6) {
+        cout << "Your point is " << total << " and your odds are 6 out of 5." << endl;
+    }
+    else if (total == 8) {
+        cout << "Your point is " << total << " and your odds are 6 out of 5." << endl;
+    }
     else {
-        // anything else
-        cout << "Your point is " << total << " but we'll do that part later." << endl;
+        cout << "Routine has encountered an error. Restart the program." << endl;
     }
 
     return 0;
