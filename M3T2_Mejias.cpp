@@ -17,6 +17,7 @@ int main() {
     cout << "Your seed is: " << seed << endl;
     cout << "What's your lucky number? " << endl;
     cin >> seed;
+    
     // Seed the RNG
     srand(seed);
 
