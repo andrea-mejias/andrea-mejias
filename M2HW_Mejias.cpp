@@ -1,6 +1,6 @@
 /*
 CSC 134
-M2HW1
+M2HW - Gold
 Andrea Mejias
 9/27/2026
 */
@@ -103,7 +103,7 @@ int question3() {
 
     // Processing - Calculate how many slices are left over
     totalslices = numberofpizzas * slicesperpizza;
-    leftoverslices = totalslices % numberofvisitors; // FIX: % gives the remainder, / does not
+    leftoverslices = totalslices - numberofvisitors * 3; 
 
     // Output - Display how many slices are left over
     cout << "The amount of slices leftover is " << leftoverslices << endl;
@@ -117,16 +117,8 @@ int question4() {
     // Question 4 - Sports Cheering Program
 
     // Declare variables
-    string school, team;
-
-    // Input - Ask user for information
-    cout << "What is the name of your school? " << endl;
-    cin >> ws; // Skip leftover whitespace from earlier input
-    getline(cin, school);
-    cout << "What is the name of your team? " << endl;
-    getline(cin, team);
-
-    // Processing - Create the cheer phrases
+    string school = "FTCC"; 
+    string team = "Trojans";
     string letsGo = "Let's go ";
     string cheerOne = letsGo + school;
     string cheerTwo = letsGo + team;

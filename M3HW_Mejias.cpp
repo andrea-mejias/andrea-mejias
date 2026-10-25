@@ -1,5 +1,5 @@
 // CSC 134
-// M3HW
+// M3HW - Gold
 // Andrea Mejias
 // 10/17/2026
 
@@ -36,17 +36,17 @@ int question1() {
 }
 
 int question2() {
-        // Purpose - Create a simple receipt
+    // Purpose - Create a simple receipt
     // Should also handle typical sales tax of 8%
     
     // Declare variables
     string item = "Meal";
     int deliverytype;
-    double itemprice = 7.99;
+    double itemprice;
     double taxpercent = 0.08;
     double taxamount;
     double tippercent = 0.15;
-    double tipamount;
+    double tipamount = 0.0;
     double totalprice;
 
     // Greet user and take order
@@ -54,6 +54,8 @@ int question2() {
     cout << "You ordered one " << item << "." << endl;
     cout << "Please enter 1 if the order is Dine In, or 2 if the order is To Go. " << endl;
     cin >> deliverytype;
+    cout << "What is the price of the item? " << endl;
+    cin >> itemprice;
 
     // Calculate meal price, sales tax and total price
 
