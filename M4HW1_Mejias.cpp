@@ -15,7 +15,7 @@ int main() {
     cout << "What number do you want to use as a multiple for a table? " << endl;
     cin >> input;
 
-    // Loop 1 - Show the 5× table once
+    // Display - Loop 1 - Show the times table by 5 once
     cout << input << " Times Table (1 to " << input << ") " << endl;
     int i = 1;
     while (i <= 5) {
@@ -23,6 +23,7 @@ int main() {
         i++;
     }
 
+    // Ask user to enter a valid number
     cout << "\nEnter a number between 1 and 12: ";
     cin >> input;
 
@@ -31,7 +32,7 @@ int main() {
         cin >> input;
     }
 
-    // Loop 2: Display the user's chosen times table by 12
+    // Display - Loop 2 - Display the user's chosen times table by 12
     cout << "\n" << input << " Times Table (1 to 12)" << endl;
     int j = 1;
     while (j <= 12) {
