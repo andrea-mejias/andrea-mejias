@@ -31,7 +31,7 @@ int main() {
         cin >> input;
     }
 
-    // Loop 2: Display the user's chosen times table (1–12)
+    // Loop 2: Display the user's chosen times table by 12
     cout << "\n" << input << " Times Table (1 to 12)" << endl;
     int j = 1;
     while (j <= 12) {
